@@ -15,7 +15,7 @@ var mode = "show", //default mode.  Command line option -m:string willl override
   state = "off"; //Maintains the current state of the light show.
 
 let statusLed = new Gpio(26, "out");
-async function statusLed() {
+async function flashStatusLed() {
   let on = true;
   while (true) {
     await sleep(1000);
@@ -28,6 +28,8 @@ async function statusLed() {
     }
   }
 }
+
+flashStatusLed();
 
 //Tie light objects to GPIO pins and set pin behavior.  This is how the SW accesses the HW
 let light0 = new Gpio(18, "out");
