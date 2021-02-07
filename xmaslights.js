@@ -14,6 +14,9 @@ var mode = "show", //default mode.  Command line option -m:string willl override
   stopTime = 1430, //in minutes - stop before midnight
   state = "off"; //Maintains the current state of the light show.
 
+let statusLed = new Gpio(26, "out");
+statusLed.writeSync(1);
+
 //Tie light objects to GPIO pins and set pin behavior.  This is how the SW accesses the HW
 let light0 = new Gpio(18, "out");
 let light1 = new Gpio(23, "out");
@@ -542,5 +545,6 @@ function sunSetInMinutes(latitude, longtitude, elevation) {
 //Exit function for ctrl+c - when using this key combo to stop the program, turns lights off on way out
 process.on("SIGINT", () => {
   allLightsOff();
+  statusLed.writeSync(0);
   process.exit();
 });
