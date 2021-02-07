@@ -156,7 +156,7 @@ var scene08 = [
   "00000000",
   "00000000",
   "00000000",
-  "00000000",//Array of light objects.  Each of these is an addressable light circuit.
+  "00000000", //Array of light objects.  Each of these is an addressable light circuit.
   "00000000",
   "00000000",
   "00000000",
@@ -341,7 +341,7 @@ async function playShow() {
       await popcorn(cycles, delay);
     } else if (state === "shimmer") {
       timeStamp = new Date();
-      console.log(const Gpio = require("onoff").Gpio; //module for RPi GPIO pin i/o access
+      console.log(
         `Starting "shimmer" @ ${timeStamp.toLocaleTimeString("en-US")}`
       );
       await shimmer(cycles, delay);
