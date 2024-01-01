@@ -203,7 +203,7 @@ This redirects terminal output to the lights.log file and ignores any "hangups" 
 
 ## Engineers
 
-- [Chris Armbruster](https://github.com/chrisallenarmbruster)
+🧑 [Chris Armbruster](https://github.com/chrisallenarmbruster)
 
 <br>
 
