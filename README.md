@@ -47,11 +47,19 @@ LightRunner is a customizable solution for orchestrating holiday light shows, bl
 
 4. **General Electronic Components**: Basic electronic components including wires, connectors, and optionally, a PCB for assembling the circuit.
 
+#### Circuit Schematic
+
 ![Schematic](images/light-runner-schematic.png)
 
 This schematic is a practical guide for the hardware component of LightRunner. It details the integration of a Raspberry Pi with eight solid-state relays (SSRs) for controlling holiday light displays. The schematic and software are compatible with various Raspberry Pi models including Pi 1 Model B+, Pi 2 Model B, Pi Zero W, and Pi 4 Model B. Each SSR is labeled to differentiate the DC control side from the AC switching side. The GPIO pins of the Raspberry Pi are used for controlling the DC side of the SSRs, which in turn, manage the switching on the AC side. This setup allows for control of the connected AC strands of LED lights. Please note that the GPIO designations are used in the schematic, not the physical pin locations, so careful attention should be paid when making connections.
 
+<br>
+
+#### Example Build
+
 ![Light Show GIF](images/lightrunnerhw.jpg)
+
+<br>
 
 ### Software Requirements
 
