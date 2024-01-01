@@ -1,6 +1,6 @@
 # LightRunner
 
-![Light Show GIF](images/lightrunner.gif)
+[![Light Show GIF](images/lightrunner.gif)](https://chrisarmbruster.com/xmaslights.m4v)
 
 ## Project Overview
 
