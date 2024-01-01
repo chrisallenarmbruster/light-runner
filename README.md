@@ -6,7 +6,7 @@
 
 LightRunner is a customizable solution for orchestrating holiday light shows, blending hardware and software engineering. At its core, LightRunner utilizes a Raspberry Pi with the Node.js runtime, enabling dynamic control over lighting sequences and effects. Designed and developed as a personal project, LightRunner animates eight distinct circuits of holiday lights, creating captivating visual effects. Each iteration of the project, from its initial inception with a TRS-80 Color Computer 2 to the current setup involving a Raspberry Pi and solid-state relays, added more capability. The system's primary charm lies in its ability to switch power across various lighting circuits, choreographing lights for holiday displays.
 
-### [👀 Click to Watch the Video Demo](https://chrisarmbruster.com/xmaslights.m4v)
+### [👀 🎬 🍿 Click to Watch the Video Demo](https://chrisarmbruster.com/xmaslights.m4v)
 
 ### Generations of LightRunner
 
@@ -16,17 +16,20 @@ LightRunner is a customizable solution for orchestrating holiday light shows, bl
   - **Technologies**: Node.js, JavaScript.
   - **Hardware**: Eight solid-state relays for controlling light circuits.
   - **Focus**: This repository is dedicated to the current design and its comprehensive implementation.
+  - **Comments**: Best solution yet.  Memory is no longer a constraint.  Software changes are possible and easy to make.  Door is open for integration with web UI.
 
 - **1990's Design**:
 
   - **Platform**: Motorola M6800 series 8-bit MCU.
   - **Programming**: Assembly language.
   - **Hardware**: Eight TRIACs for light switching, with opto-isolation/coupling to ensure safe interfacing between the TRIACs and the processor.
+  - **Comments**: Much better than the prior generation because it freed up the computer.  This was ultra reliable, but constrained by memory and a design that did not lend itself to software changes.
 
 - **Early Design**:
   - **Platform**: Expansion port on a TRS-80 Color Computer 2.
   - **Programming**: Assembly language.
   - **Hardware**: Utilized TRIACs for light switching, featuring opto-isolation/coupling for processor safety and reliability.
+  - **Comments**: It worked, but not a good solution because it tied up the family computer for the holiday season.  Nevertheless, a good proof of concept.
 
 <br>
 
