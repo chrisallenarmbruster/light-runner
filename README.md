@@ -6,7 +6,7 @@
 
 LightRunner is a customizable solution for orchestrating holiday light shows, blending hardware and software engineering. At its core, LightRunner utilizes a Raspberry Pi with the Node.js runtime, enabling dynamic control over lighting sequences and effects. Designed and developed as a personal project, LightRunner animates eight distinct circuits of holiday lights, creating captivating visual effects. Each iteration of the project, from its initial inception with a TRS-80 Color Computer 2 to the current setup involving a Raspberry Pi and solid-state relays, added more capability. The system's primary charm lies in its ability to switch power across various lighting circuits, choreographing lights for holiday displays.
 
-[Click to Watch the Video Demo](https://chrisarmbruster.com/xmaslights.m4v)
+### [👀 Click to Watch the Video Demo](https://chrisarmbruster.com/xmaslights.m4v)
 
 ### Generations of LightRunner
 
